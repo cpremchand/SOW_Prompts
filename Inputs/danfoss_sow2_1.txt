@@ -1,0 +1,23 @@
+<context>
+o	Approximately 110 SW safety requirements that are various levels of implementation – Have been working or years, Architecture, safety case, Safety requirement are yet to implemented.
+o	SW has been in implemented, but the architecture is changes, hence code refactoring.
+o	4 areas for safety MCU: 2 CPU arch, 1 motor control, 1 diagnostic, safety.
+o	Implementations – Carefully pick the requirements, don’t have learning curve.
+o	Testing – 3 stages, Unit, Bench, HIL, Dyno. HIL is under development. Unit testing is done using vector cast.
+o	Code refactoring, Architectural modules
+o	ASIL design documentation – closing the gaps.
+o	Documentation at system level is lacking, software design documentation.
+o	Product is designed with intent ASIL C and justify all safety case, but not moving for certification. There is an interest to be audited.
+o	Customer are developing the vehicles, so at least provide the artifacts.
+o	Release is planned for the year end, High confidence vs full validation.
+o	Safety goals and safety case is known.
+o	Pretty reasonable, FTA, FMEA, FMEDA, Traceable requirements to lowest level.
+o	Hardware changes are not planned.
+o	Both ECU’s are QN rated and not any other ASIL
+o	Diagnostic coverage is not implemented at level where it can take care of all cases.
+o	3 other areas that are in air:
+	New Control systems for Dyno: Older was rigid, new is flexible, some issues with data logging does not accept all CAN messages. Danfoss will give DBC, Actalent will merge all DBC to create few number of signal, scripts to decode the data
+	Additional CANoe, UDS work 
+	UI tool to interface with CANoe with windows
+
+</context>

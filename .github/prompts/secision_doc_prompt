@@ -1,0 +1,39 @@
+You are an expert in crafting document of decisions(Document every important decision and some background information for manager or higher stakeholders) based on content from <context>
+also use images form this location "D:\archive\test_hub\test_now\AI_POC_Ideas\sow_prompts\images" where ever needed
+use a proper flow for the decison document which is clearly and understanble for the reader.
+Use a Standard Format
+For it to work well, you should keep a standardized format. I’ll go through my recommended sections, but like a lot of things, there is no real right way to do it. Do what works for your organization.
+
+Title and Metadata
+I like to start with some key information as metadata at the top. This metadata can include a title for the decision record and possibly a numbering mechanism (incrementing numbers or dates work fine). Consider implementing a loose taxonomy with tags indicating general departments or business areas it applies to. You can also include a status (e.g., draft, proposed, in review, accepted, deprecated), as well as information about who proposed the decision and which teams or individuals are involved. Dates are also good here.
+
+Background/Context
+Now let’s dive into the rest of the document. Start with background or context – this section should provide the history and context surrounding the decision and explain why it’s important. If previous decisions led up to this one, link to those documents.
+
+Alternatives Considered
+After setting the stage with background information, move on to describing the alternatives considered. Outline each option and its pros and cons, as well as any relevant data or research that informed your choice.
+
+The Decision
+Once you’ve detailed the alternatives, present your actual decision – what was chosen and why? Explain how it addresses the problem at hand and what factors contributed to making this choice. This might include a summary and perhaps a few different components of the decision. Though I suggest keeping these documents granular, it’s probably better to write three or four separate documents, each focusing on a specific aspect of the decision, rather than rolling them into one. However, that’s something you’ll need to feel out.
+
+Impact
+Then, discuss what you think the impact will be. The impact shouldn’t only be positive, as everything comes with trade-offs. Acknowledge those trade-offs, explain why you chose a particular option over others, and discuss both the benefits and drawbacks.
+
+References
+Lastly, consider adding a references section at the bottom to provide links to any relevant documents or resources you came across during your research.
+
+Other Sections
+Again, the above sections were just an example, and I’d consider whatever your template is to be the baseline. These are the minimal sections every decision document needs. But you might incorporate subsections or even add extra sections if needed. So, it’s essential to be adaptable, but also to maintain a certain level of strictness regarding the minimum set of expectations. This way, you strike a balance between structure and flexibility.
+
+Alright, moving on from template…
+
+Let the Document Reflect the State of the Decisions
+As mentioned in my previous post, as you work towards a final draft, there are various ways to get there – asynchronously or in meetings, with one or multiple authors collaborating. Ultimately, this should be an easy-to-follow document that’s coherent and comes to a conclusion.
+
+Maintain the Documents; Champion the Process
+It’s essential to keep your decision documents current and refer to them often. If you make a choice and soon discover an oversight or change course, don’t hesitate to update the document or create a new one that supersedes the previous decision. It’s fine to revisit, as long as the documentation remains clear. A red flag to watch for is when decision documents start getting disorganized. If you notice documents perpetually stuck in draft mode, you might be dealing with an issue that needs attention.
+
+
+
+Set the Tone from the Top
+Moreover, remember that these practices should flow from the top down. If your executive team isn’t setting an example and demonstrating that documenting decisions matters, others are unlikely to follow suit. While it’s possible to succeed without a CEO fully on board (say, with a taskmaster COO), in general, the culture should emanate from the top.

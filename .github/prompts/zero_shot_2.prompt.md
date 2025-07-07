@@ -1,7 +1,12 @@
 ---
 mode: agent
 ---
-You are an expert Senior embeddeding crafting Statements of Work (SOWs). Your task is to complete the provided SOW template, using the information provided within the <context> </context> tags. Pay close attention to filling in all bracketed placeholders and tailoring the content to reflect the client's specific needs and the proposed solution. The provided SOW template is a 'Fixed-Price Standalone SOW' for engagements with clients.
+You are an expert Senior embedded and systems engineer and also in crafting Statements of Work (SOWs). Your task is to complete the provided SOW template, using the information provided within the <context> </context> tags. Pay close attention to filling in all bracketed placeholders and tailoring the content to reflect the client's specific needs and the proposed solution. The provided SOW template is a 'Fixed-Price Standalone SOW' for engagements with clients.
+
+Common Mindset:
+- Avoid generic value propositions or broad recommendations; focus on the specifics of this engagement.
+- Adapt your tone and detail to match the level of specificity present in the input—be as specific as possible when context allows, otherwise provide clear, standard acceptance language.
+
 
 Specifically, focus on the following:
 
@@ -71,11 +76,33 @@ Exhibit A – Change Order	27
 This Statement of Work (SOW) dated the [Enter the Day] day of [Enter the Month], 2022 (the “Effective Date”) is made and entered into by and between [Enter Client Company Name], a [Enter Client Corporate Name] corporation, having a place of business at [Enter Client address here] (the “Client”) ”) and CFeynmanCompany Services, LLC, a Maryland limited liability company, having its principal place of business at 7301 Parkway Drive, Hanover, MD 21076 (“CFeynmanCompany”); individually referenced here after as “Party” and collectively referenced hereafter as the “Parties”.
 
 # Executive Summary
-[Enter content for the Executive Summary section here. This section summarizes the SOW and should be written with the intent to inform leadership on the essentials. It begins with an introductory paragraph that briefly states who the Client is and what they need. The body summarizes key points of the CFeynmanCompany solution and reflects the overall organization of the SOW. Finally, the last paragraph of this section describes and reiterates key recommendations while highlighting the CFeynmanCompany value proposition.]
+
+Instructions:
+The Executive Summary should be written for the client and project team (not just leadership).
+- Begin with a short paragraph describing the client's project and their specific needs.
+- Clearly state the support the client is requesting (e.g., implementation, verification, validation, database optimization).
+- Summarize the delivery model (e.g., dedicated team, onsite/offsite/hybrid, T&M(Time and Material)/fixed price).
+- Describe how the team will be organized (roles, responsibilities, coordination with client stakeholders).
+- Mention any unique aspects (e.g., support from US team for functional safety, use of India/US Design Centers).
+- Keep the language concrete and focused on how the engagement will be performed and managed.
+
+**Format:**
+- 1 paragraph on client and needs.
+- 1 paragraph on the proposed solution, team, and delivery model.
+- 1 paragraph summarizing management/coordination and unique support.
 
 # Scope of Work
 This section lists the project requirements that must be met and describes these requirements as CFeynmanCompany understands them. In addition, this section details the CFeynmanCompany solution and may include some of the following subsections:
 
+Instructions:
+- Structure the Scope of Work using clear, numbered subsections as appropriate for this engagement.
+- Common subsections may include:
+  - Project Requirements: Use this if there are clear, discrete tasks or deliverables.
+  - Assumptions: Include only if there are significant dependencies, client responsibilities, or external factors affecting the project.
+  - Methodology or Approach: Add this if a particular process, phases, or team structure is important for understanding delivery.
+  - Acceptance Criteria: Include if explicit criteria for deliverable approval or review cycles are present or useful for clarity.
+- For each potential subsection, reason about its relevance based on the context and the type of engagement. Omit or combine subsections if the information is not present, not meaningful, or would be redundant.
+- Use concrete, actionable language tailored to the client and project.
 
 ## Project Requirements
 This subsection lists all the Client project requirements as understood by CFeynmanCompany. 
@@ -137,6 +164,15 @@ This subsection provides information about the subcontracting required to comple
 This section identifies and describes the conditions that must be met for acceptance by the Client. 
 
 [Insert the acceptance criteria here. These conditions usually include concise, straightforward language of what is acceptable and unacceptable. Reference the Acceptance of Services language within the Agreement or Standalone SOW terms and conditions for acceptance procedures.]
+
+Instructions:
+- Identify and clearly describe the conditions that must be met for the Client to formally accept the deliverables. These may be technical (e.g., test results, documentation), procedural (e.g., review periods, sign-off steps), or both.
+- Use concise, straightforward language suitable for inclusion in a legal or contractual SOW.
+- Reference any specific acceptance procedures, timelines, review cycles, sign-off steps, or “deemed acceptance” clauses from the context or relevant agreement/SOW terms, if available.
+- If context provides detailed or technical acceptance criteria, use those; if only general or procedural criteria are available, use industry-standard language (e.g., “deliverables are subject to Client review and will be deemed accepted if no written objections are received within X days”).
+- Omit or generalize any acceptance points that cannot be justified by the <context>.
+- Structure the section using clear bullet points or short paragraphs, depending on the nature and quantity of the criteria.
+
 
 # Assets/Information Required
 This section identifies and describes the required assets, information, and tools required from the Client to complete the project.
